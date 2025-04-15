@@ -1,0 +1,206 @@
+/* Основные стили */
+body {
+    background-color: #0f3460; /* Тёмно-синий фон */
+    color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #1c8efb; /* Синий заголовок */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    width: 100%;
+    max-width: 1200px; /* Ограничение максимальной ширины */
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #16213e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 3D-эффект */
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #1c8efb;
+}
+
+.card a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #1e90ff, #0d6efd); /* Градиент для кнопок */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card a:hover {
+    background: linear-gradient(145deg, #4dabf7, #0a58ca);
+    transform: translateY(-3px);
+}
+
+.card a i {
+    margin-right: 8px; /* Расстояние между иконкой и текстом */
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+    .card {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card a {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+.copy-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Расстояние между значком и текстом */
+    padding: 8px 12px;
+    margin-top: 5px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 3D эффект */
+}
+.copy-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Расстояние между иконкой и текстом */
+    padding: 8px 12px;
+    margin: 10px 0 5px 0; /* Верхний и нижний отступы */
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 3D эффект */
+}
+
+
+
+
+
+
+
+
+
+
+
+.copy-button:hover {
+    background-color: #4dabf7;
+    transform: translateY(-3px);
+}
+
+
+
+
+
+
+
+
+
+.copy-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Расстояние между иконкой и текстом */
+    padding: 10px 15px;
+    margin: 10px 0; /* Отступы */
+    background-color: #212121; /* Тёмный брутальный цвет */
+    color: #e0e0e0; /* Светло-серый текст */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.6), 0 5px 10px rgba(0, 0, 0, 0.5); /* Металлический эффект */
+}
+
+.copy-button:hover {
+    background-color: #3c3c3c; /* Цвет на ховер */
+}
+
+.telegram-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Расстояние между иконкой и текстом */
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #212121; /* Тёмный брутальный цвет */
+    color: #e0e0e0; /* Светло-серый текст */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.6), 0 5px 10px rgba(0, 0, 0, 0.5); /* Металлический эффект */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.telegram-button:hover {
+    background-color: #3c3c3c; /* Цвет на ховер */
+}
+
+
+
