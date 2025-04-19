@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/adaptive-menu/static/css/main.f3520fde.css",
+    "main.css": "/adaptive-menu/static/css/main.7c5cd92b.css",
     "main.js": "/adaptive-menu/static/js/main.aaf9a64d.js",
     "static/js/453.a3fa06bb.chunk.js": "/adaptive-menu/static/js/453.a3fa06bb.chunk.js",
     "static/media/eragif.gif": "/adaptive-menu/static/media/eragif.1a15472e09e353effcdd.gif",
+    "static/media/fa-solid-900.ttf": "/adaptive-menu/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/adaptive-menu/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/funtik.jpg": "/adaptive-menu/static/media/funtik.329d3df9bcf222c30fba.jpg",
+    "static/media/fa-solid-900.woff2": "/adaptive-menu/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/alex.jpg": "/adaptive-menu/static/media/alex.e615f0822f02683d7854.jpg",
+    "static/media/fa-brands-400.woff2": "/adaptive-menu/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/dragon.jpg": "/adaptive-menu/static/media/dragon.799f76e7fc1be7be129b.jpg",
+    "static/media/fa-regular-400.ttf": "/adaptive-menu/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/adaptive-menu/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/adaptive-menu/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/adaptive-menu/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/adaptive-menu/index.html",
-    "main.f3520fde.css.map": "/adaptive-menu/static/css/main.f3520fde.css.map",
+    "main.7c5cd92b.css.map": "/adaptive-menu/static/css/main.7c5cd92b.css.map",
     "main.aaf9a64d.js.map": "/adaptive-menu/static/js/main.aaf9a64d.js.map",
     "453.a3fa06bb.chunk.js.map": "/adaptive-menu/static/js/453.a3fa06bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3520fde.css",
+    "static/css/main.7c5cd92b.css",
     "static/js/main.aaf9a64d.js"
   ]
 }
